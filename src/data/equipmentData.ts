@@ -61,6 +61,60 @@ export const categories: Category[] = [{
   subcategories: ['Water Pump', 'Vibrating Screed', 'Rebar Threading Machine', 'Pipe Cutter', 'Pipe Threading Machine']
 }];
 export const equipment: Equipment[] = [
+    {
+        id: '6',
+        name: 'Concrete Mixer',
+        category: 'Concrete Equipment',
+        description: 'Industrial concrete mixer',
+        dailyRate: 2500,
+        image: 'https://5.imimg.com/data5/DV/PJ/MY-602421/portable-concrete-mixer-1000x1000.jpg',
+        availability: 'Available'
+    },
+    {
+        id: '20',
+        name: 'Tile Cutter',
+        category: 'Cutting & Grinding Equipment',
+        description: 'Electric tile cutting machine',
+        dailyRate: 1200,
+        image: 'https://5.imimg.com/data5/AP/VT/MY-3131766/heavy-duty-manual-tile-cutter-4-feet-500x500.jpg',
+        availability: 'Available'
+    },
+    // Welding & Fabrication Tools
+    {
+        id: '31',
+        name: 'Welding Machine',
+        category: 'Welding & Fabrication Tools',
+        description: 'Arc welding machine 400A',
+        dailyRate: 1500,
+        image: 'https://5.imimg.com/data5/SELLER/Default/2023/11/364116907/ZZ/ZQ/CB/3989099/71dpr1pigfl-ac-uf1000-1000-ql80-500x500.jpg',
+        availability: 'Available'
+    }, {
+        id: '32',
+        name: 'Gas Cutting Set',
+        category: 'Welding & Fabrication Tools',
+        description: 'Oxy-acetylene cutting set',
+        dailyRate: 1200,
+        image: 'https://5.imimg.com/data5/SELLER/Default/2025/9/542652747/US/ME/HW/161183780/oxy-acetylene-gas-cutting-sets-500x500.jpg',
+        availability: 'Available'
+    },
+// Plumbing & Civil Support Tools
+    {
+        id: '33',
+        name: 'Submersible Water Pump',
+        category: 'Plumbing & Civil Support Tools',
+        description: '3HP submersible pump',
+        dailyRate: 1000,
+        image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/448618911/BJ/WW/TB/16539295/submersible-sump-pumps-500x500.jpeg',
+        availability: 'Available'
+    }, {
+        id: '34',
+        name: 'Pipe Threading Machine',
+        category: 'Plumbing & Civil Support Tools',
+        description: 'Electric pipe threading machine',
+        dailyRate: 1800,
+        image: 'https://5.imimg.com/data5/WX/XM/MY-1955727/pipe-threading-machine-500x500.jpg',
+        availability: 'Available'
+    },
 // Earthmoving Equipment
 {
   id: '1',
@@ -104,15 +158,7 @@ export const equipment: Equipment[] = [
   availability: 'Available'
 },
 // Concrete Equipment
-{
-  id: '6',
-  name: 'Concrete Mixer',
-  category: 'Concrete Equipment',
-  description: 'Industrial concrete mixer',
-  dailyRate: 2500,
-  image: 'https://5.imimg.com/data5/DV/PJ/MY-602421/portable-concrete-mixer-1000x1000.jpg',
-  availability: 'Available'
-}, {
+ {
   id: '7',
   name: 'Concrete Vibrator',
   category: 'Concrete Equipment',
@@ -224,14 +270,6 @@ export const equipment: Equipment[] = [
   dailyRate: 800,
   image: 'https://5.imimg.com/data5/SELLER/Default/2025/3/494745519/ID/NK/YC/8420807/circular-saw-500x500.png',
   availability: 'Available'
-}, {
-  id: '20',
-  name: 'Tile Cutter',
-  category: 'Cutting & Grinding Equipment',
-  description: 'Electric tile cutting machine',
-  dailyRate: 1200,
-  image: 'https://5.imimg.com/data5/AP/VT/MY-3131766/heavy-duty-manual-tile-cutter-4-feet-500x500.jpg',
-  availability: 'Available'
 },
 // Power Tools
 {
@@ -323,39 +361,4 @@ export const equipment: Equipment[] = [
   image: 'https://5.imimg.com/data5/SELLER/Default/2025/7/528917984/HQ/TD/NF/12816527/fire-fighting-truck-water-bowser-500x500.jpg',
   availability: 'Available'
 },
-// Welding & Fabrication Tools
-{
-  id: '31',
-  name: 'Welding Machine',
-  category: 'Welding & Fabrication Tools',
-  description: 'Arc welding machine 400A',
-  dailyRate: 1500,
-  image: 'https://5.imimg.com/data5/SELLER/Default/2023/11/364116907/ZZ/ZQ/CB/3989099/71dpr1pigfl-ac-uf1000-1000-ql80-500x500.jpg',
-  availability: 'Available'
-}, {
-  id: '32',
-  name: 'Gas Cutting Set',
-  category: 'Welding & Fabrication Tools',
-  description: 'Oxy-acetylene cutting set',
-  dailyRate: 1200,
-  image: 'https://5.imimg.com/data5/SELLER/Default/2025/9/542652747/US/ME/HW/161183780/oxy-acetylene-gas-cutting-sets-500x500.jpg',
-  availability: 'Available'
-},
-// Plumbing & Civil Support Tools
-{
-  id: '33',
-  name: 'Submersible Water Pump',
-  category: 'Plumbing & Civil Support Tools',
-  description: '3HP submersible pump',
-  dailyRate: 1000,
-  image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/448618911/BJ/WW/TB/16539295/submersible-sump-pumps-500x500.jpeg',
-  availability: 'Available'
-}, {
-  id: '34',
-  name: 'Pipe Threading Machine',
-  category: 'Plumbing & Civil Support Tools',
-  description: 'Electric pipe threading machine',
-  dailyRate: 1800,
-  image: 'https://5.imimg.com/data5/WX/XM/MY-1955727/pipe-threading-machine-500x500.jpg',
-  availability: 'Available'
-}];
+];
